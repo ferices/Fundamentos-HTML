@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="120px" height="120px"  viewBox="0 0 120 120"> <!--el atributo viewBox genera un espacio de trabajo dentro del espacio principal declarado e el svg. En viewBox se ingresan 4 valores; los dos primero representan los ejes x e y; los ultimos dos valores el ancho y alto -->
+        <image width="120px" height="120px"  x="0px" y="10px"  xlink:href="imagenes/logo_svg.svg"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Fredrick Isaac Erices Muñoz</h2>
+      <h3>30 de Septiembre de 1980, Los Ángeles, Chile</h3>
+      <div id="Menu" name="Menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </div>
+    </header>
+    <article>
+      <div id="Educacion" name="Educacion">
+        <h2>Educación</h2>
+        <table border="1px" cellspacing="0" cellpadding="3">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>1999</td>
+            <td>IPVG</td>
+            <td>CONCEPCION</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>UCSC</td>
+            <td>SANTIAGO</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>UCSC</td>
+            <td>TEMUCO</td>
+            <td>SI</td>
+          </tr>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form class="" action="index.html" method="post">
+          <fieldset>
+            <p>
+              <label for="Anio">Año:</label>
+              <select id="Anio" name="Anio">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+              </select>
+            </p>
+            <p>
+              <label for="Txt_Institucion">Institución:</label>
+              <input type="text" id="Txt_Institucion" name="Txt_Institucion" placeholder="Ej: NextU">
+            </p>
+            <p>
+              <label for="Txt_Lugar">Lugar:</label>
+              <textarea id="Txt_Lugar" name="Txt_Lugar" rows="3" cols="40"></textarea>
+            </p>
+            <p>
+              <label for="Radio_Culmino">¿Cuminó?</label>
+              <input type="radio" name="Radio_Culmino" value="Si">Si
+              <input type="radio" name="Radio_Culmino" value="No">No
+            </p>
+            <p>
+
+            </p><input type="button" name="Btn_Enviar" value="Enviar">
+          </fieldset>
+
+        </form>
+      </div>
+    </article>
+    <hr>
+    <footer>
+      <ul>
+        <li>Correo Electrónico: fredrick.erices@outlook.com</li>
+        <li>Teléfono: +56 12345678</li>
+        <li>La calle buena #123, Los Ángeles.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
